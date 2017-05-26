@@ -1,0 +1,13 @@
+<form>
+  <div class="form-group">
+    <label for="code" class="control-label">Color code</label>
+    <input type="text" class="form-control" id="code" placeholder="#C3C3C3" value="{{code}}">
+  </div>
+  <button type="submit" class="btn btn-primary">
+    {{#if id}}
+        Save
+      {{else}}
+        Add
+      {{/if}}
+  </button>
+</form>
